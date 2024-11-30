@@ -1,10 +1,10 @@
 # Step Count and Weather Analysis
 
-## Motiivation
+## Motivation
 
 In our daily lives, weather significantly influences our activities and behaviors. Physical activity, especially walking, is often dictated by external factors such as temperature, precipitation, and daylight availability. As someone interested in understanding the dynamics of personal health and environmental factors, my project seeks to explore the relation between weather conditions and step counts. By analyzing this relationship, the project aims to provide insights into how weather impacts physical activity and build a foundation for encouraging healthier lifestyle choices. Thereby i will try to answer these questions: <br>
-- Does my step count depend on the weather condition?
-- Does the temperature affect my steps during the day
+- Does my step count depends on the weather conditions?
+- Does the temperature affect my steps during the day?
 ## Dataset Description
 
 ### 1. **Step Count Data**
