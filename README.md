@@ -1,35 +1,44 @@
-# Step Count and Weather Analysis <br>
-## Project Overview <br>
-My project aims to analyze the relationship between daily step counts and weather conditions. Using personal step count data from Apple HealthKit and weather information from WeatherKit or other APIs, i will investigate how different weather impact physical activity levels. <br>
+# Step Count and Weather Analysis
 
-## Dataset Description <br>
-1. Step Count Data <br>
-Source: Apple HealthKit <br>
-Fields: <br>
-Date
-Total Steps <br>
-2. Weather Data <br>
-Source: OpenWeatherMap (or alternative free weather APIs) <br>
-Fields: <br>
-Temperature (°C)
-Precipitation (mm)
-Weather Condition (e.g., Sunny, Rainy, Cloudy) <br>
-## Data Collection Process <br>
-Step count data will be exported from Apple Health.
-Weather data will be fetched using an API for corresponding dates and locations. <br>
-## Project Plan <br>
-Data Collection: <br>
+## Motiivation
 
-Export personal step count data.
-Use an API to fetch weather data for the same date range. <br>
-Data Preprocessing: <br>
+In our daily lives, weather significantly influences our activities and behaviors. Physical activity, especially walking, is often dictated by external factors such as temperature, precipitation, and daylight availability. As someone interested in understanding the dynamics of personal health and environmental factors, my project seeks to explore the interplay between weather conditions and step counts. By analyzing this relationship, the project aims to provide insights into how weather impacts physical activity and build a foundation for encouraging healthier lifestyle choices.
+## Dataset Description
 
-Clean and structure the data for analysis.
-Handle missing or inconsistent values. <br>
-Exploratory Data Analysis: <br>
+### 1. **Step Count Data**
+- **Source:** Apple HealthKit
+- **Fields:**
+  - Date
+  - Total Steps
+  - Hourly Step Distribution (if available)
 
-Visualize the trends in step count and weather variables.
-Identify correlations between weather conditions and physical activity. <br>
-Modeling: <br>
+### 2. **Weather Data**
+- **Source:** Apple WeatherKit (or alternative APIs such as OpenWeatherMap)
+- **Fields:**
+  - Temperature (°C)
+  - Humidity (%)
+  - Precipitation (mm)
+  - Wind Speed (km/h)
+  - Weather Condition (e.g., Sunny, Rainy, Cloudy)
 
-Apply statistical methods to predict step counts based on weather data.
+### Data Collection Process
+- Step count data will be exported from Apple Health.
+- Weather data will be fetched using an API for corresponding dates and locations.
+
+## Project Plan
+
+1. **Data Collection:**
+   - Export personal step count data.
+   - Use an API to fetch weather data for the same date range.
+2. **Data Preprocessing:**
+   - Clean and structure the data for analysis.
+   - Handle missing or inconsistent values.
+3. **Exploratory Data Analysis:**
+   - Visualize the trends in step count and weather variables.
+   - Identify correlations between weather conditions and physical activity.
+4. **Modeling:**
+   - Apply statistical methods or machine learning models to predict step counts based on weather data.
+5. **Visualization and Reporting:**
+   - Create interactive charts and summaries to present the findings.
+6. **Documentation and Final Report:**
+   - Summarize results and prepare insights.
