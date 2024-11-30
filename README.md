@@ -1,4 +1,4 @@
-Step Count and Weather Analysis
+Step Count and Weather Analysis /n
 Project Overview
 My project aims to analyze the relationship between daily step counts and weather conditions. Using personal step count data from Apple HealthKit and weather information from WeatherKit or other APIs, i will investigate how different weather impact physical activity levels.
 
