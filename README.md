@@ -41,3 +41,5 @@ In our daily lives, weather significantly influences our activities and behavior
 5. **Visualization and Reporting:**
    - Create interactive charts and summaries to present the findings.
 
+###Presentation Link: https://www.canva.com/design/DAGb0kwtRvQ/WISQXO-B_OhZcBfONetULw/view?utm_content=DAGb0kwtRvQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h738037dcd3
+
